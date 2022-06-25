@@ -1,4 +1,4 @@
-# V2RayQ 
+# V2RayQ Lite
 
 V2RayQ lite is an automatic V2Ray VMess VPN generator for Wordpress.
 
