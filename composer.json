@@ -1,0 +1,17 @@
+{
+    "name": "v2rayq/v2rayq-lite",
+    "description": "V2RayQ is an automatic V2Ray VMess generator for Wordpress.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "V2RayQ",
+            "email": "V2RayQ@goutlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

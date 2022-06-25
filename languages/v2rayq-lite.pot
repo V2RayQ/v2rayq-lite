@@ -1,0 +1,86 @@
+# Copyright (C) 2022 V2RayQ
+# This file is distributed under the same license as the V2RayQ Lite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: V2RayQ Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/v2rayq-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-24T08:52:49+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: v2rayq-lite\n"
+
+#. Plugin Name of the plugin
+#: inc/Pages/Administrator.php:44
+#: templates/admin.php:86
+msgid "V2RayQ Lite"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.v2rayq.com/docs/lite"
+msgstr ""
+
+#. Description of the plugin
+msgid "V2RayQ Lite generate V2Ray VMess VPN for Wordpress."
+msgstr ""
+
+#. Author of the plugin
+msgid "V2RayQ"
+msgstr ""
+
+#: inc/Pages/Administrator.php:73
+msgid "Input Your domain below, http(s):// not included"
+msgstr ""
+
+#: inc/Pages/Administrator.php:86
+msgid "VMess Domain Name"
+msgstr ""
+
+#: templates/admin.php:6
+msgid "Manage VMess"
+msgstr ""
+
+#: templates/admin.php:7
+msgid "About"
+msgstr ""
+
+#: templates/admin.php:87
+msgid "V2RayQ lite is an automatic V2Ray VMess VPN generator for Wordpress."
+msgstr ""
+
+#: templates/admin.php:88
+msgid "Features:"
+msgstr ""
+
+#: templates/admin.php:89
+msgid "V2Ray + VMess + WebSocket + TLS"
+msgstr ""
+
+#: templates/admin.php:90
+msgid "Undetectable VMess protcol"
+msgstr ""
+
+#: templates/admin.php:91
+msgid "Input your domain name and then generate V2ray VMess VPN configurations easily"
+msgstr ""
+
+#: templates/admin.php:92
+msgid "VMess supports Windows Linux, and Mobile applications such as Shadowrocket and V2ray* applications"
+msgstr ""
+
+#: templates/admin.php:93
+msgid "VMess URL and detailed configurations are included"
+msgstr ""
+
+#: templates/admin.php:95
+msgid "Current version"
+msgstr ""
+
+#: templates/admin.php:96
+msgid "Support"
+msgstr ""

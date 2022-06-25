@@ -1,0 +1,14 @@
+
+20gjp1001.google.com:443 {
+
+	root * /usr/share/caddy
+
+	file_server
+      
+        @websockets {
+            path /r2
+            header Connection *Upgrade*
+            header Upgrade websocket
+       }        
+       reverse_proxy @websockets  localhost:9001	
+}

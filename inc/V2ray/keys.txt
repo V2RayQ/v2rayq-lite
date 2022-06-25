@@ -1,0 +1,66 @@
+Mobile	Apps  Settings:
+ShadowRocket:	 
+Type:	         Vmess
+Address:	     20gjp1001.google.com
+Port:   	     433
+UUID:   	     47010059-4706-459e-b506-7a073efcf1df
+Alter ID: 	     233
+Method: 	     Auto(Except none)
+TLS:    	     On
+Allow Insecure:	 Off
+Transport:	     websocket(ws)
+Host:   	     Same as the above Address
+Path:   	     /r2
+
+Kitsunebi:	  
+Type:   	     Same as the above Type
+Address: 	     Same as the above Address
+Port:   	     443
+UUID:   	     Same as the above UUID
+Security:	     Auto(Except none)
+Network:	     ws
+path:   	     /r2
+Host:   	     Same as the above Address
+TLS:    	     On
+Allow Insecure:	 Off
+Server Name:	 Same as the above Address
+
+Computer os	 software:
+V2RayX:	 
+Sock5 Port:	     1081
+Http Port:	     8081
+Support UDP:	 On
+DNS:    	     localhost
+Address:	     Same as the above Address
+Port:   	     443
+UUID:   	     Same as the above UUID
+alterId:	     233
+level:  	     0
+Security:	     Auto(Except none)
+Network:	     ws
+transport settings	 
+Websocket	 
+path:   	     /r2
+headers:	     {"Host": "Insert Address above"}
+TLS	 
+Use TLS:	     On (next insecure Off)
+TLS ServerName:	 Same as the above Address
+alpn:	         http/1.1
+
+ClashX Pro: 	insert next details to VMess part
+# VMess
+- name: "v2ray"
+  type: vmess
+  server: Insert Same as the above Address
+  port: 443
+  uuid: Same as the above UUID
+  alterId: 233
+  cipher: auto
+  udp: true
+  tls: true
+  tls-hostname: Same as the above Address
+  # skip-cert-verify: true
+  network: ws
+  ws-path: /r2
+  # ws-headers: #don"t fill anything
+  Host: Same as the above Address 
