@@ -70,7 +70,7 @@ class Administrator extends BaseControl
 		$args = array(
 			array(
 				'id' => 'v2rayq_admin_index',
-				'title' => __('Input Your domain below, http(s):// not included', 'v2rayq-lite'), 
+				'title' => __('Input Your domain below, and the A record should point to this server IP.', 'v2rayq-lite'), 
 				'page' => 'v2rayq_lite'
 			) 
 		);
